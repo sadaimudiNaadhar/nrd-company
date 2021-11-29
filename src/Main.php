@@ -21,7 +21,7 @@ class Main
 
          switch ($_POST['doAction']) {
             case "create-connection": {
-                  $this->createTicket();
+                  $this->createConnection();
                }
                break;
 
@@ -91,7 +91,7 @@ class Main
       }
    }
 
-   private function createTicket()
+   private function createConnection()
    {
 
       $mode = $_POST['mode'];
