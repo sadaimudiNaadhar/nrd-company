@@ -1,0 +1,19 @@
+{
+    "name": "vaisa/redis",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Vaisakh VN",
+            "email": "vaisakh@redis.com"
+        }
+    ],
+    "require": {}
+}
